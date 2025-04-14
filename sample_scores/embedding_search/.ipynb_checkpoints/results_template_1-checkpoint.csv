@@ -1,0 +1,4 @@
+audio_file,aru_folder,query,clip,min_score
+sample_audio/test_dset_1.wav,sample,template_1,12,171.2019
+sample_audio/test_dset_3.wav,sample,template_1,3,178.30978
+sample_audio/test_dset_2.wav,sample,template_1,3,196.81036

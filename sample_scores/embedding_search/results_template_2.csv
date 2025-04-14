@@ -1,0 +1,3 @@
+file,query,start_time,min_score
+sample_audio/test_dset_1.wav,template_2,48,173.87401
+sample_audio/test_dset_3.wav,template_2,9,177.83391
