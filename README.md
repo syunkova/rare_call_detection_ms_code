@@ -4,7 +4,7 @@ This repository contains supplemental Jupyter notebooks that demonstrate the met
 ## Repository structure
 This repository contains 2 environment files, 6 Notebooks, and 4 subdirectories containing sample data.
 
-#### Data folders
+### Data folders
 - **sample_audio**
     - Contains three 1-minute audio files extracted from real field data used in our study. These files have been examined and confirmed to contain *A. varius* vocalizations.
 - **sample_embeddings**
@@ -15,7 +15,7 @@ This repository contains 2 environment files, 6 Notebooks, and 4 subdirectories 
 - **sample_scores**
     - "Output" directory containing subdirectories to save scores for each method, if desired.
 
-#### Environment files
+### Environment files
 To run all Notebooks, the user will need to install 2 Python virtual environments using a package manager like [Anaconda](https://anaconda.org/). We provide .yml files to create these environments with required packages:
 1. **OpSo011.yml**
     - environment used to run most Notebooks that utilizes [OpenSoundscape](https://opensoundscape.org/en/latest/) version 0.11.0 (Lapp et al., 2023)
@@ -25,7 +25,7 @@ To run all Notebooks, the user will need to install 2 Python virtual environment
         - [FAISS](https://ai.meta.com/tools/faiss/) (Douze et al., 2024): used to perform efficient embedding similarity search on our embeddings in **embedding_search_demo.ipynb**.
     - These notebooks will not work with the other environment.
 
-#### Notebooks (in suggested order of application)
+### Notebooks (in suggested order of application)
 All Notebooks in this repository are structured similarly: they contain a "setup" section with imports and parameter definitions, a middle "process" section that includes data selection, function definitions, and an actual run-through of the procedure on the attached dummy data, and a final "review" section for the user to preview high-scoring clips, like a tiny portion of the review process described in our study.
 1. **cross_correlation_demo.ipynb**
     - Applies template matching by cross-correlation, the first signal processing method described in our study and a "basic" detection method in bioacoustics.
